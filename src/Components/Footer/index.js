@@ -94,7 +94,7 @@ const Footer = () => {
                     </SocialLogo>
                     <WebsiteRights>SUWIK INVESTMENTS © {new Date().getFullYear()}
                     All rights reserved.</WebsiteRights>
-                    <SocialIcons>
+                    {/* <SocialIcons>
                         <SocialIconLink href="https://www.facebook.com/ZigotiCoffee" target="_blank" arial-label="Facebook">
                             <FaFacebook/>
                         </SocialIconLink>
@@ -110,7 +110,7 @@ const Footer = () => {
                         <SocialIconLink href="https://wa.me/message/FTZ2CS3TCD4HC1" target="_blank" aria-label="Whatsapp">
                             <FaWhatsapp/>
                         </SocialIconLink>
-                    </SocialIcons>
+                    </SocialIcons> */}
                 </SocialMediaWrap>
             </SocialMedia>
 
