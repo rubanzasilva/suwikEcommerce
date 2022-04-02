@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router,Routes, Route} from 'react-router-dom';
+import CookieConsent from "react-cookie-consent";
+import Home from './Pages';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+
+<CookieConsent
+	location='bottom' 
+   buttonText='Ok!' 
+   cookieName='<cookieName>' 
+   style={{ background: "#35241A" }} 
+   buttonStyle={{ color: '#F7F2EF', fontSize: '13px' }}    
+   expires={150}
+	>
+	This website uses cookies to enhance the user experience.
+	<span style={{fontSize:'10px'}}></span>
+	</CookieConsent>
+
+
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        {/* <Route path="/about" element={<About />}></Route> */}
+      </Routes>
+    </Router>
+  )
 }
 
-export default App;
+export default App
