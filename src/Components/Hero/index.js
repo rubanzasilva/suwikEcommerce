@@ -52,7 +52,7 @@ const data = [
   {
     title: 'Pineapples ( Whole )',
     Price: '2.9421 $ (per KG)',
-    img1:require('../../Images/latundanBanana.jpeg'),
+    img1:require('../../Images/pineapples.jpeg'),
   },
   {
     title: 'Tilapia ( Whole )',
@@ -64,8 +64,8 @@ const data = [
     img1:require('../../Images/latundanBanana.jpeg'),
   },
   {
-    title: 'Cavendish ( Bogoya )',
-    Price: '3.08385$ (per KG)',
+    title: 'Sweet potatoes',
+    Price: '7.4781 $ (per KG)',
     img1:require('../../Images/latundanBanana.jpeg'),
   },
   {
