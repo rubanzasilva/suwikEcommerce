@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaBars } from 'react-icons/fa';
+// import { FaBars } from 'react-icons/fa';
 import {Nav,NavBarContainer,NavLogo,MobileIcon,NavMenu,NavItem,NavLinks,NavBtn,NavBtnLink,Img} from './NavBarElements';
 // import logo from '../../Images/logox.png';
 import 'antd/dist/antd.css';
