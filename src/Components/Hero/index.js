@@ -10,184 +10,226 @@ const { Meta } = Card;
 const data = [
   {
     title: 'Apple Bananas',
-    Price: '2.3751 $ (per KG)',
+    // Price: '2.3751 (£ per KG)',
+    Price1:'3.1668 ( $ per KG)',
     img1:require('../../Images/latundanBanana.jpeg'),
     
   },
   {
     title: 'Fresh Cassava',
-    Price: '2.0916 $ (per KG)',
+    // Price: '2.0916 (£ per KG)',
+    Price1:'2.7888 ( $ per KG)',
     img1:require('../../Images/freshCassava.jpeg'),
   },
   {
     title: 'Cavendish ( Bogoya )',
-    Price: '3.0838 $ (per KG)',
+    // Price: '3.0838 (£ per KG)',
+    Price1:'4.1118 ( $ per KG)',
     img1:require('../../Images/cavendish.jpeg'),
   },
   {
     title: 'Cow Peas',
-    Price: '2.80035 $ (per KG)',
+    // Price: '2.80035 (£ per KG)',
+    Price1:'3.7338 ( $ per KG)',
     img1:require('../../Images/cow-peas.jpg'),
   },{
     title: 'Soya Beans',
-    Price: '2.9421 $ (per KG)',
+    // Price: '2.9421 (£ per KG)',
+    Price1:'3.9228 ( $ per KG)',
     img1:require('../../Images/soyaBeans.jpeg'),
   },
   {
     title: 'Irish Potatoes',
-    Price: '2.4013 $ (per KG)',
+    // Price: '2.4013 (£ per KG)',
+    Price1:'3.2018 ( $ per KG)',
     img1:require('../../Images/irishPotatoes.jpeg'),
   },
   {
     title: 'Matooke ( Fingers )',
-    Price: '2.0842 $ (per KG)',
+    // Price: '2.0842 (£ per KG)',
+    Price1:'2.7790 ( $ per KG)',
     img1:require('../../Images/matookeFingers.jpeg'),
     
   },
   {
     title: 'Matooke ( 1 bunch )',
-    Price: '10.4286 $ (per KG)',
+    // Price: '10.4286 (£ per KG)',
+    Price1:'13.9048 ( $ per KG)',
     img1:require('../../Images/matookeBunch.jpeg'),
   },
   {
     title: 'Pineapples ( Whole )',
-    Price: '2.9421 $ (per KG)',
+    // Price: '2.9421 (£ per KG)',
+    Price1:'3.9228 ( $ per KG)',
     img1:require('../../Images/pineapples.jpeg'),
   },
   {
     title: 'Tilapia ( Whole )',
-    Price: '5.2101 $ (per KG)',
+    // Price: '5.2101 (£ per KG)',
+    Price1:'6.9468 ( $ per KG)',
     img1:require('../../Images/latundanBanana.jpeg'),
   },{
     title: 'Turkey ( Whole )',
-    Price: '24.4356 $ (per KG)',
+    // Price: '24.4356 $ (per KG)',
+    Price1:'32.5808 ( $ per KG)',
     img1:require('../../Images/latundanBanana.jpeg'),
   },
   {
     title: 'Sweet potatoes',
-    Price: '7.4781 $ (per KG)',
+    // Price: '7.4781 (£ per KG)',
+    Price1:'9.9708 ( $ per KG)',
     img1:require('../../Images/latundanBanana.jpeg'),
   },
   {
     title: '  Tomatoes',
-    Price: '2.9841 $ (per KG)',
+    // Price: '2.9841 (£ per KG)',
+    Price1:'3.9788 ( $ per KG)',
     img1:require('../../Images/latundanBanana.jpeg'),
     
   },
   {
     title: 'Fresh Oranges ( HS Code )',
-    Price: '2.0916 $ (per KG)',
+    // Price: '2.0916 (£ per KG)',
+    Price1:'4.6208 ( $ per KG)',
     img1:require('../../Images/latundanBanana.jpeg'),
   },
   {
     title: 'Apples',
-    Price: '4.8699 $ (per KG)',
+    // Price: '4.8699 (£ per KG)',
+    Price1:'6.4932 ( $ per KG)',
     img1:require('../../Images/latundanBanana.jpeg'),
   },
   {
     title: 'Onions',
-    Price: '2.8413 $ (per KG)',
+    // Price: '2.8413 (£ per KG)',
+    Price1:'3.7884 ( $ per KG)',
     img1:require('../../Images/latundanBanana.jpeg'),
   },{
     title: ' Lettuce ',
-    Price: '2.8197 $ (per KG)',
+    // Price: '2.8197 (£ per KG)',
+    Price1:'3.7596 ( $ per KG)',
     img1:require('../../Images/latundanBanana.jpeg'),
   },
   {
     title: 'Guavas',
-    Price: '3.7926 $ (per KG)',
+    // Price: '3.7926 (£ per KG)',
+    Price1:'5.0568 ( $ per KG)',
     img1:require('../../Images/latundanBanana.jpeg'),
   },
 
   //second batch
   {
     title: 'Jack fruit',
-    Price: '5.2101 $ (per KG)',
+    // Price: '5.2101 $ (per KG)',
+    Price1:'6.9468 ( $ per KG)',
     img1:require('../../Images/latundanBanana.jpeg'),
     
   },
   {
     title: 'Mangoes',
-    Price: '3.5091 $ (per KG)',
+    // Price: '4.6788 $ (per KG)',
+    Price1:'4.6788 ( $ per KG)',
     img1:require('../../Images/freshCassava.jpeg'),
   },
   {
     title: 'Passion Fruit',
-    Price: '3.7926 $ (per KG)',
+    // Price: ' $ (per KG)',
+    Price1:'5.0568 ( $ per KG)',
     img1:require('../../Images/cavendish.jpeg'),
   },
   {
     title: 'Pawpaw',
-    Price: '4.0761 $ (per KG)',
+    // Price: '4.0761 $ (per KG)',
+    Price1:'5.4348 ( $ per KG)',
     img1:require('../../Images/cow-peas.jpg'),
-  },{
+  },
+  
+  {
     title: 'Small Bananas',
-    Price: '2.2019 $ (per KG)',
+    // Price: '2.2019 $ (per KG)',
+    Price1:'2.29358 ( $ per KG)',
     img1:require('../../Images/soyaBeans.jpeg'),
   },
   {
     title: 'Watermelon ( Black )',
-    Price: '4.0761 $ (per KG)',
+    // Price: '4.0761 $ (per KG)',
+    Price1:'5.4348 ( $ per KG)',
     img1:require('../../Images/irishPotatoes.jpeg'),
   },
   {
     title: 'Watermelon ( Zebra )',
-    Price: '4.0026 $ (per KG)',
+    // Price: '4.0026 $ (per KG)',
+    Price1:'5.3368 ( $ per KG)',
     img1:require('../../Images/matookeFingers.jpeg'),
     
   },
   {
     title: 'Spinach',
-    Price: '4.6431 $ (per KG)',
+    // Price: '4.6431 $ (per KG)',
+    Price1:'6.1908 ( $ per KG)',
     img1:require('../../Images/matookeBunch.jpeg'),
   },
   {
     title: ' Beetroot',
-    Price: '3.2256 $ (per KG)',
+    // Price: '3.2256 $ (per KG)',
+    Price1:'4.3008 ( $ per KG)',
     img1:require('../../Images/pineapples.jpeg'),
   },
   {
     title: 'Egg plant',
-    Price: '2.9421 $ (per KG)',
+    // Price: '2.9421 $ (per KG)',
+    Price1:'3.9228 ( $ per KG)',
     img1:require('../../Images/latundanBanana.jpeg'),
-  },{
+  },
+  
+  {
     title: 'Bittet Gourd',
-    Price: '3.3674 $ (per KG)',
+    // Price: '3.3674 $ (per KG)',
+    Price1:'4.4898 ( $ per KG)',
     img1:require('../../Images/latundanBanana.jpeg'),
   },
   {
     title: 'Bottle Gourd',
-    Price: '3.0839 $ (per KG)',
+    // Price: '3.0839 $ (per KG)',
+    Price1:'4.1118 ( $ per KG)',
     img1:require('../../Images/latundanBanana.jpeg'),
   },
   {
     title: '  Broccoli',
-    Price: '4.0761 $ (per KG)',
+    // Price: '4.0761 $ (per KG)',
+    Price1:'5.4348 ( $ per KG)',
     img1:require('../../Images/latundanBanana.jpeg'),
     
   },
   {
     title: 'Butter nuts',
-    Price: '3.1101 $ (per KG)',
+    // Price: '3.1101 $ (per KG)',
+    Price1:'4.1468 ( $ per KG)',
     img1:require('../../Images/latundanBanana.jpeg'),
   },
   {
     title: 'Cauli Flower',
-    Price: '3.1101 $ (per KG)',
+    // Price: '3.1101 $ (per KG)',
+    Price1:'4.1468 ( $ per KG)',
     img1:require('../../Images/latundanBanana.jpeg'),
   },
   {
     title: 'Celery',
-    Price: '4.0761 $ (per KG)',
+    // Price: '4.0761 $ (per KG)',
+    Price1:'5.4348 ( $ per KG)',
     img1:require('../../Images/latundanBanana.jpeg'),
-  },{
+  },
+  
+  {
     title: ' Cherry Tomatoes ',
-    Price: '2.8197 $ (per KG)',
+    // Price: '2.8197 $ (per KG)',
+    Price1:'8.0808 ( $ per KG)',
     img1:require('../../Images/latundanBanana.jpeg'),
   },
   {
     title: 'Cluster Beans',
-    Price: '3.7926 $ (per KG)',
+    // Price: '4.6788 $ (per KG)',
+    Price1:'4.6788 ( $ per KG)',
     img1:require('../../Images/latundanBanana.jpeg'),
   },
 
@@ -195,72 +237,76 @@ const data = [
 
   {
     title: 'Colored pepper',
-    Price: '5.2101 $ (per KG)',
+    // Price: '5.2101 $ (per KG)',
+    Price1:'6.9468 ( $ per KG)',
     img1:require('../../Images/latundanBanana.jpeg'),
     
   },
 
 
-    {
-        title: 'Cucumbers',
-        Price: '2.6586 ( $ per KG)',
-        Price1: '3.5448 (£ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Fresh Yam',
-        Price: '3.2256 ( $ per KG)',
-        Price1: '4.3008 (£ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Garlic',
-        Price: '6.0606 ( $ per KG)',
-        Price1: '8.0808 (£ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Green Amaranth',
-        Price: '2.6586 ( $ per KG)',
-        Price1: '3.5448(£ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
+ {
+   title: 'Cucumbers',
+  //  Price: '2.6586 ( $ per KG)',
+   Price1: '3.5448 ( $ per KG)',
+  img1:require('../../Images/freshCassava.jpeg'),
+   },
+
+{
+   title: 'Fresh Yam',
+  //  Price: '3.2256 ( $ per KG)',
+   Price1: '4.3008 ( $ per KG)',
+   img1:require('../../Images/freshCassava.jpeg'),
+  },
+  {
+   title: 'Garlic',
+  //  Price: '6.0606 ( $ per KG)',
+   Price1: '8.0808 ( $ per KG)',
+   img1:require('../../Images/freshCassava.jpeg'),
+  },
+  {
+     title: 'Green Amaranth',
+    //  Price: '2.6586 ( $ per KG)',
+     Price1: '3.5448 ( $ per KG)',
+     img1:require('../../Images/freshCassava.jpeg'),
+    },
     
-      {
-        title: 'Green Chillies',
-        Price: '3.5091 ( $ per KG)',
-        Price1: '4.6788 (£ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Green peppers',
-        Price: '2.9421 ( $ per KG)',
-        Price1: '3.9228 (£ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Mushroom Loose',
-        Price: '5.2101 ( $ per KG)',
-        Price1: '6.9468 (£ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Okra',
-        Price: '2.9421 ( $ per KG)',
-        Price1: '3.9228 (£ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
+  {
+    title: 'Green Chillies',
+    // Price: '3.5091 ( $ per KG)',
+    Price1: '4.6788 ( $ per KG)',
+    img1:require('../../Images/freshCassava.jpeg'),
+   },
+
+   {
+    title: 'Green peppers',
+    Price: '2.9421 ( $ per KG)',
+    Price1: '3.9228 ( $ per KG)',
+    img1:require('../../Images/freshCassava.jpeg'),
+     },
+
+   {
+     title: 'Mushroom Loose',
+     Price: '5.2101 ( $ per KG)',
+     Price1: '6.9468 ( $ per KG)',
+     img1:require('../../Images/freshCassava.jpeg'),
+    },
+     {
+     title: 'Okra',
+    //  Price: '2.9421 ( $ per KG)',
+     Price1: '3.9228 ( $ per KG)',
+     img1:require('../../Images/freshCassava.jpeg'),
+    },
     
-      {
-        title: 'Plantain',
-        Price: '3.7926 ( $ per KG)',
-        Price1: '5.0568 (£ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Pok Choy',
-        Price: '2.9421 ( $ per KG)',
-        Price1: '3.9228 (£ per KG)',
+   {
+     title: 'Plantain',
+    // Price: '3.7926 ( $ per KG)',
+    Price1: '5.0568 ( $ per KG)',
+    img1:require('../../Images/freshCassava.jpeg'),
+    },
+    {
+     title: 'Pok Choy',
+    //  Price: '2.9421 ( $ per KG)',
+     Price1: '3.9228 ( $ per KG)',
         img1:require('../../Images/freshCassava.jpeg'),
       },
       {
@@ -309,7 +355,7 @@ const data = [
         img1:require('../../Images/freshCassava.jpeg'),
       },
       {
-        title: 'Bitter Berries',
+     title: 'Bitter Berries',
         Price: '3.7926 ( $ per KG)',
         Price1: '5.0568 (£ per KG)',
         img1:require('../../Images/freshCassava.jpeg'),
