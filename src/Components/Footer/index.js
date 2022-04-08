@@ -28,7 +28,7 @@ const Footer = () => {
    
                      <FooterLink to="/About">History</FooterLink>
                      <FooterLink to="/About">Testimonials</FooterLink>
-                     <FooterLink to="/About">ZICOFE in the community</FooterLink>
+                     <FooterLink to="/About">SUWIK in the community</FooterLink>
                      <FooterLink to="/About">Roastery</FooterLink>
                      
 
