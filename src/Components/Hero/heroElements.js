@@ -13,10 +13,18 @@ export const HeroSectionContainer = styled.section`
     align-items: center;
     position: relative;
     z-index: 1;
+
     @media (max-width: 768px) {
         height: auto;
         min-height: 100vh;
     }
+
+    .ant-list * {
+    outline: none;
+    min-width: 33%;
+    justify-content:center;
+    align-items:center;
+}
 
     .ant-list-grid .ant-col > .ant-list-item {
     display: flex;

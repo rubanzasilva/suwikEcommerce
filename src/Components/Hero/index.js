@@ -183,7 +183,7 @@ const data = [
   },
   
   {
-    title: 'Bittet Gourd',
+    title: 'Bitter Gourd',
     // Price: '3.3674 $ (per KG)',
     Price1:'4.4898 ( $ per KG)',
     img1:require('../../Images/latundanBanana.jpeg'),
@@ -526,7 +526,7 @@ const HeroSection = () => {
 
 <List
     grid={{
-      gutter: 8,
+      gutter: 2,
       xs: 1,
       sm: 2,
       md: 4,
