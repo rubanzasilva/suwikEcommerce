@@ -279,14 +279,14 @@ const data = [
 
    {
     title: 'Green peppers',
-    Price: '2.9421 ( $ per KG)',
+    // Price: '2.9421 ( $ per KG)',
     Price1: '3.9228 ( $ per KG)',
     img1:require('../../Images/freshCassava.jpeg'),
      },
 
    {
      title: 'Mushroom Loose',
-     Price: '5.2101 ( $ per KG)',
+    //  Price: '5.2101 ( $ per KG)',
      Price1: '6.9468 ( $ per KG)',
      img1:require('../../Images/freshCassava.jpeg'),
     },
@@ -308,225 +308,213 @@ const data = [
     //  Price: '2.9421 ( $ per KG)',
      Price1: '3.9228 ( $ per KG)',
      img1:require('../../Images/freshCassava.jpeg'),
-      },
+     },
 
-       {
-         title: 'Pumpkin',
-             // Price: '4.6788 ( $ per KG)',
-              Price1: '4.6788 ( $ per KG)',
-              img1:require('../../Images/freshCassava.jpeg'),
+    {
+      title: 'Pumpkin',
+      // Price: '4.6788 ( $ per KG)',
+      Price1: '4.6788 ( $ per KG)',
+      img1:require('../../Images/freshCassava.jpeg'),
    },
 
-            {
-              title: 'Radish',
-             // Price: '3.2256 ( $ per KG)',
-              Price1: '4.3008 ( $ per KG)',
-              img1:require('../../Images/freshCassava.jpeg'),
-            },
+   {
+       title: 'Radish',
+       // Price: '3.2256 ( $ per KG)',
+       Price1: '4.3008 ( $ per KG)',
+       img1:require('../../Images/freshCassava.jpeg'),
+       },
     
     
-      {
+     {
     title: 'Red Amaranth',
     //     Price: '2.9001 ( $ per KG)',
         Price1: '3.8668 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
+     img1:require('../../Images/freshCassava.jpeg'),
+     },
 
-      {
-        title: 'Spring Onions',
+     {
+     title: 'Spring Onions',
     //     Price: '4.0761 ( $ per KG)',
         Price1: '5.4348 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Taro Roots',
+    img1:require('../../Images/freshCassava.jpeg'),
+     },
+     {
+     title: 'Taro Roots',
     //     Price: '3.7926 ( $ per KG)',
         Price1: '5.0568 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Kibite Onions',
+     img1:require('../../Images/freshCassava.jpeg'),
+     },
+     {
+     title: 'Kibite Onions',
     //     Price: '4.0761 ( $ per KG)',
         Price1: '5.4348 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
+     img1:require('../../Images/freshCassava.jpeg'),
+     },
     
-      {
-        title: 'Zucchini',
+    {
+     title: 'Zucchini',
     //     Price: '3.2256( $ per KG)',
         Price1: '4.3008 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
+     img1:require('../../Images/freshCassava.jpeg'),
+   },
+   {
      title: 'Bitter Berries',
     //     Price: '3.7926 ( $ per KG)',
         Price1: '5.0568 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Black Sunflower seeds',
+     img1:require('../../Images/freshCassava.jpeg'),
+   },
+    {
+     title: 'Black Sunflower seeds',
         // Price: '3.7926 ( $ per KG)',
         Price1: '5.0568 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Chick Peas',
+     img1:require('../../Images/freshCassava.jpeg'),
+    },
+    {
+     title: 'Chick Peas',
     //     Price: '5.2101 ( $ per KG)',
         Price1: '6.9468 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
+     img1:require('../../Images/freshCassava.jpeg'),
+    },
     
-      {
-        title: 'Cinammon',
+     {
+     title: 'Cinammon',
     //     Price: '11.7306 ( $ per KG)',
         Price1: '15.6408 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Cinammon Sticks',
+     img1:require('../../Images/freshCassava.jpeg'),
+    },
+     {
+     title: 'Cinammon Sticks',
     //     Price: '12.4656 ( $ per KG)',
         Price1: '16.6208 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Cloves',
+     img1:require('../../Images/freshCassava.jpeg'),
+     },
+    {
+     title: 'Cloves',
     //     Price: '16.3519 ( $ per KG)',
         Price1: '21.8025 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Corriander',
+     img1:require('../../Images/freshCassava.jpeg'),
+    },
+    {
+     title: 'Corriander',
     //     Price: '8.8956 ( $ per KG)',
         Price1: '11.8608 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
+    img1:require('../../Images/freshCassava.jpeg'),
+     },
     
     //
     
-      {
-        title: 'Dried Ginger',
+     {
+    title: 'Dried Ginger',
     //     Price: '11.7306 ( $ per KG)',
         Price1: '15.6408 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Dried Turmeric',
+     img1:require('../../Images/freshCassava.jpeg'),
+   },
+     {
+    title: 'Dried Turmeric',
     //     Price: '10.8801 ( $ per KG)',
         Price1: '14.5068 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Hibiscus',
+     img1:require('../../Images/freshCassava.jpeg'),
+  },
+    {
+     title: 'Hibiscus',
     //     Price: '10.3131 ( $ per KG)',
         Price1: '13.7508 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Lentil',
+     img1:require('../../Images/freshCassava.jpeg'),
+    },
+   {
+     title: 'Lentil',
     //     Price: '5.4936 ( $ per KG)',
         Price1: '7.3248 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
+     img1:require('../../Images/freshCassava.jpeg'),
+    },
     
-      {
-        title: 'Moringa Oleifera seeds',
+     {
+    title: 'Moringa Oleifera seeds',
     //     Price: '8.0451 ( $ per KG)',
         Price1: '10.7268 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Cinnamon leaves / Bay Leaves',
+    img1:require('../../Images/freshCassava.jpeg'),
+   },
+    {
+     title: 'Cinnamon leaves / Bay Leaves',
     //     Price: '2.5169 ( $ per KG)',
         Price1: '3.3558 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
+     img1:require('../../Images/freshCassava.jpeg'),
+   },
     
-      {
-        title: 'Basil',
+     {
+    title: 'Basil',
     //     Price: '2.8004 ( $ per KG)',
         Price1: '3.7338 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Chives',
+     img1:require('../../Images/freshCassava.jpeg'),
+    },
+   {
+     title: 'Chives',
     //     Price: '3.2256 ( $ per KG)',
         Price1: '4.3008 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
+     img1:require('../../Images/freshCassava.jpeg'),
+    },
     
-      {
-        title: 'Coriander',
+     {
+    title: 'Coriander',
     //     Price: '2.3751 ( $ per KG)',
         Price1: '3.1668 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Curry Leaves',
+    img1:require('../../Images/freshCassava.jpeg'),
+     },
+     {
+    title: 'Curry Leaves',
     //     Price: '2.3751 ( $ per KG)',
         Price1: '3.1668 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Dill',
-    //     Price: '2.3751 ( $ per KG)',
-        Price1: '3.1668 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Fenugreek leaves',
-    //     Price: '2.3751 ( $ per KG)',
-        Price1: '3.1668 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
+     img1:require('../../Images/freshCassava.jpeg'),
+   },
     {
-        title: 'Ginger',
+     title: 'Dill',
+    //     Price: '2.3751 ( $ per KG)',
+        Price1: '3.1668 ( $ per KG)',
+     img1:require('../../Images/freshCassava.jpeg'),
+   },
+   {
+     title: 'Fenugreek leaves',
+    //     Price: '2.3751 ( $ per KG)',
+        Price1: '3.1668 ( $ per KG)',
+    img1:require('../../Images/freshCassava.jpeg'),
+     },
+    {
+     title: 'Ginger',
     //     Price: '3.5091 ( $ per KG)',
         Price1: '4.6788 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Mint Leaves',
+     img1:require('../../Images/freshCassava.jpeg'),
+   },
+    {
+     title: 'Mint Leaves',
     //     Price: '2.3751 ( $ per KG)',
         Price1: '3.1668 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
+     img1:require('../../Images/freshCassava.jpeg'),
+     },
     {
-        title: 'Mondia Whitei',
+     title: 'Mondia Whitei',
     //     Price: '4.6431 ( $ per KG)',
         Price1: '6.1908 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Persley',
+    img1:require('../../Images/freshCassava.jpeg'),
+    },
+   {
+     title: 'Persley',
     //     Price: '2.3751 ( $ per KG)',
         Price1: '3.1668 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
+    img1:require('../../Images/freshCassava.jpeg'),
+    },
     {
-        title: 'Rosemars',
+     title: 'Rosemars',
     //     Price: '2.3751 ( $ per KG)',
         Price1: '3.1668 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
-      {
-        title: 'Thyme',
+    img1:require('../../Images/freshCassava.jpeg'),
+   },
+   {
+     title: 'Thyme',
     //     Price: '2.6586 ( $ per KG)',
         Price1: '3.5448 ( $ per KG)',
-        img1:require('../../Images/freshCassava.jpeg'),
-      },
+     img1:require('../../Images/freshCassava.jpeg'),
+   },
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-  
   
 ];
 
