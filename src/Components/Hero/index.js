@@ -67,18 +67,18 @@ const data = [
     title: 'Tilapia ( Whole )',
     // Price: '5.2101 ( $ per KG)',
     Price1:'6.9468 ( $ per KG)',
-    img1:require('../../Images/latundanBanana.jpeg'),
+    img1:require('../../Images/tilapia.jpg'),
   },{
     title: 'Turkey ( Whole )',
     // Price: '24.4356 $ (per KG)',
     Price1:'32.5808 ( $ per KG)',
-    img1:require('../../Images/latundanBanana.jpeg'),
+    img1:require('../../Images/turkey.jpeg'),
   },
   {
     title: 'Sweet potatoes',
     // Price: '7.4781 ( $ per KG)',
     Price1:'9.9708 ( $ per KG)',
-    img1:require('../../Images/latundanBanana.jpeg'),
+    img1:require('../../Images/sweetPotatoes.jpeg'),
   },
   {
     title: '  Tomatoes',
