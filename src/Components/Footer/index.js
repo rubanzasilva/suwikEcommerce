@@ -36,23 +36,23 @@ const Footer = () => {
 
                  <FooterLinkItems>
 
-                     <FooterLinkTitle>Robusta</FooterLinkTitle>
+                     <FooterLinkTitle>Cereals</FooterLinkTitle>
    
-                     <FooterLink to="/GreenBeans">Screen 12</FooterLink>
-                     <FooterLink to="/GreenBeans">Screen 15</FooterLink>
-                     <FooterLink to="/GreenBeans">Screen 18</FooterLink>
-                     <FooterLink to="/GreenBeans">Black beans</FooterLink>
+                     <FooterLink to="/GreenBeans">Maize</FooterLink>
+                     <FooterLink to="/GreenBeans">Sim sim</FooterLink>
+                     <FooterLink to="/GreenBeans">Sorghum</FooterLink>
+                     {/* <FooterLink to="/GreenBeans">Black beans</FooterLink> */}
                      
 
                  </FooterLinkItems>
 
                  <FooterLinkItems>
 
-                     <FooterLinkTitle>Production</FooterLinkTitle>
+                     <FooterLinkTitle>Fruits</FooterLinkTitle>
    
-                     <FooterLink to="/About">Factory</FooterLink>
-                     <FooterLink to="/About">Capacity</FooterLink>
-                     <FooterLink to="/About">Roastery</FooterLink>
+                     <FooterLink to="/About">Ovacado</FooterLink>
+                     <FooterLink to="/About">Mangoes</FooterLink>
+                     <FooterLink to="/About">Passion fruits</FooterLink>
                      <Button type="link" href='http://www.zicofecafe.com' style={{color:'#35241A'}}>Zicofe Cafe</Button>
                      {/* <Link> <a href='http://www.zicofecafe.com'>ZICOFE Cafe</a></Link> */}
                      
