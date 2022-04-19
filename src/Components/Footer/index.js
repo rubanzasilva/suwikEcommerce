@@ -29,7 +29,6 @@ const Footer = () => {
                      <FooterLink to="/About">History</FooterLink>
                      <FooterLink to="/About">Testimonials</FooterLink>
                      <FooterLink to="/About">SUWIK in the community</FooterLink>
-                     <FooterLink to="/About">Roastery</FooterLink>
                      
 
                  </FooterLinkItems>
@@ -53,7 +52,6 @@ const Footer = () => {
                      <FooterLink to="/About">Ovacado</FooterLink>
                      <FooterLink to="/About">Mangoes</FooterLink>
                      <FooterLink to="/About">Passion fruits</FooterLink>
-                     <Button type="link" href='http://www.zicofecafe.com' style={{color:'#35241A'}}>Zicofe Cafe</Button>
                      {/* <Link> <a href='http://www.zicofecafe.com'>ZICOFE Cafe</a></Link> */}
                      
 
