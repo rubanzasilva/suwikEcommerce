@@ -22,22 +22,22 @@ const SideBarSuwik = ({title1,title5,isOpen,toggle}) => {
                     </SideBarRoute>
 
                     <SideBarRoute to="/"> 
-                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>Green Beans</Title>
+                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>Cereals</Title>
                     </SideBarRoute>
                     
                     {/* <SideBarLink to="/RoastedBeans"> */}
                     <SideBarRoute to="/">
-                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>Roasted Beans</Title>
+                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>Fruits</Title>
                     </SideBarRoute>
 
                     {/* <SideBarLink to="/shop"> */}
                     <SideBarRoute to="/">
-                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>Factory</Title>
+                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>How we work</Title>
                     </SideBarRoute>
 
                     {/* <SideBarLink to="/cart"> */}
                     <SideBarRoute to="/">
-                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>Roastery</Title>
+                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>Contact us</Title>
                     </SideBarRoute>
 
                     <SideBtnWrap>
