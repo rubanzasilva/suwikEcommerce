@@ -222,13 +222,13 @@ const data = [
      title: 'Broccoli',
      // Price: '4.0761 $ (per KG)',
      Price1:'5.4348 ( $ per KG)',
-       img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/broccoli.jpeg',
-        
-      },
-      {
-        title: 'Butter nuts',
+     img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/broccoli.jpeg',
+     
+    },
+    {
+     title: 'Butter nuts',
         // Price: '3.1101 $ (per KG)',
-        Price1:'4.1468 ( $ per KG)',
+    Price1:'4.1468 ( $ per KG)',
        img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/butternuts.jpeg',
       },
       {
@@ -324,7 +324,254 @@ const data = [
         img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/mushroomLoose.jpeg',
         },
 
+
+    {
+      title: 'Okra',
+      // Price: '2.9421 $ (per KG)',
+      Price1:'3.9228 ( $ per KG)',
+      img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/okra.jpeg',
+    },
+
+    {
+      title: 'Plantain',
+      // Price: '2.0916 ( $ per KG)',
+      Price1:'5.0568 ( $ per KG)',
+      img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/plantain.jpeg',
+    },
+    {
+      title: 'Pok Choy',
+      // Price: '3.0838 ( $ per KG)',
+      Price1:'3.9228 ( $ per KG)',
+      img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/pokChoy.jpeg',
+    },
+    {
+      title: 'Pumpkin',
+      // Price: '2.80035 ( $ per KG)',
+      Price1:'4.6788 ( $ per KG)',
+      img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/soyaBeans.jpeg',
+    },{
+      title: 'Radish',
+      // Price: '2.9421 ( $ per KG)',
+      Price1:'4.3008 ( $ per KG)',
+      img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/radish.jpeg',
+    },
+    {
+      title: 'Red Amaranth',
+      // Price: '2.4013 ( $ per KG)',
+      Price1:'3.8668 ( $ per KG)',
+      img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/redAmaranth.jpeg',
+    },
+    {
+      title: 'Spring Onions',
+      // Price: '2.0842 ( $ per KG)',
+      Price1:'5.4348 ( $ per KG)',
+      img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/springOnions.jpeg',
+      
+    },
+    {
+      title: 'Taro Roots',
+      // Price: '10.4286 ( $ per KG)',
+      Price1:'5.0568 ( $ per KG)',
+      img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/taroRoots.jpeg',
+    },
+    {
+      title: 'Kibite Onions',
+      // Price: '2.9421 ( $ per KG)',
+      Price1:'5.4348 ( $ per KG)',
+      img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/kibiteOnions.jpeg',
+    },
+    {
+      title: 'Zucchini',
+      // Price: '5.2101 ( $ per KG)',
+      Price1:'4.3008 ( $ per KG)',
+      img1: 'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/zucchini.jpeg',
+    },{
+      title: 'Bitter Berries',
+      // Price: '24.4356 $ (per KG)',
+      Price1:'5.0568 ( $ per KG)',
+      img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/bitterBerries.jpeg',
+    },
   
+    //last edit
+  
+     {
+      title: 'Black Sunflower Seeds',
+      // Price: '7.4781 ( $ per KG)',
+      Price1:'5.0568 ( $ per KG)',
+      img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/blackSunflowerSeeds.jpeg',
+    },
+  
+      {
+      title: 'Chick Peas',
+      // Price: '2.9841 ( $ per KG)',
+      Price1:'6.9468 ( $ per KG)',
+      img1: 'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/chickPeas.jpeg',
+     },
+  
+      {
+      title: 'Cinnamon',
+      // Price: '2.0916 ( $ per KG)',
+      Price1:'15.6408 ( $ per KG)',
+      img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/cinnamon.jpeg',
+      },
+  
+      {
+       title: 'Cinnamon Sticks',
+          // Price: '4.8699 ( $ per KG)',
+       Price1:'16.6208 ( $ per KG)',
+      img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/cinnamonSticks.jpeg',
+    },
+  
+      {
+      title: 'Cloves',
+      // Price: '2.8413 ( $ per KG)',
+      Price1:'21.8025 ( $ per KG)',
+      img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/cloves.jpeg',
+      },
+      {
+       title: ' Corriander ',
+       // Price: '2.8197 ( $ per KG)',
+       Price1:'11.8608 ( $ per KG)',
+       img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/corriander.jpeg',
+     },
+  
+    {
+      title: 'Dried Ginger',
+      // Price: '3.7926 ( $ per KG)',
+      Price1:'15.6408 ( $ per KG)',
+      img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/driedGinger.jpeg',
+      },
+      
+      
+        //second batch
+     {
+       title: ' Dried Turmeric',
+       // Price: '5.2101 $ (per KG)',
+       Price1:'14.5068 ( $ per KG)',
+       img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/driedTurmeric.jpeg',
+      
+     },
+  
+       {
+       title: 'Hibiscus',
+       // Price: '4.6788 $ (per KG)',
+       Price1:'13.7508 ( $ per KG)',
+       img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/hibiscus.jpeg',
+      },
+  
+      {
+      title: 'Lentil',
+      // Price: ' $ (per KG)',
+      Price1:'7.3248 ( $ per KG)',
+      img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/lentil.jpeg',
+      },
+  
+      {
+       title: 'Moringa Oleifera Seeds',
+       // Price: '4.0761 $ (per KG)',
+       Price1:'10.7268 ( $ per KG)',
+       img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/moringaSeeds.jpeg',
+      },
+      
+      {
+      title: 'Wheat seeds',
+      // Price: '2.2019 $ (per KG)',
+      Price1:'4.1118 ( $ per KG)',
+      img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/wheatSeeds.jpeg',
+    },
+  
+    {
+       title: 'Cinnamon/Bay leaves',
+       // Price: '4.0761 $ (per KG)',
+       Price1:'3.3558 ( $ per KG)',
+       img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/cinnamonLeaves.jpeg',
+    },
+  
+     {
+       title: 'Basil',
+       // Price: '4.0026 $ (per KG)',
+       Price1:'3.7338 ( $ per KG)',
+       img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/basil.jpeg',
+      },
+  
+     {
+      title: 'Chives',
+      // Price: '4.6431 $ (per KG)',
+      Price1:'4.3008 ( $ per KG)',
+      img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/chives.jpeg',
+      },
+  
+      {
+      title: 'Coriander',
+      // Price: '3.2256 $ (per KG)',
+      Price1:'3.1668 ( $ per KG)',
+      img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/beetroot.jpeg',
+      },
+      
+      {
+      title: 'Curry Leaves',
+      // Price: '2.9421 $ (per KG)',
+      Price1:'3.1668 ( $ per KG)',
+      img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/eggPlant.jpeg',
+    },
+
+    {
+      title: 'Dill',
+      // Price: '4.0026 $ (per KG)',
+      Price1:'3.1668 ( $ per KG)',
+      img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/dill.jpeg',
+     },
+ 
+    {
+     title: 'Fenugreek leaves',
+     // Price: '4.6431 $ (per KG)',
+     Price1:'3.1668 ( $ per KG)',
+     img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/fenugreekLeaves.jpeg',
+     },
+ 
+     {
+     title: 'Ginger',
+     // Price: '3.2256 $ (per KG)',
+     Price1:'4.6788 ( $ per KG)',
+     img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/ginger.jpeg',
+     },
+     
+ 
+     {
+     title: 'Mint Leaves',
+     // Price: '2.9421 $ (per KG)',
+     Price1:'3.1668 ( $ per KG)',
+     img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/eggPlant.jpeg',
+   },
+  
+   {
+    title: 'Mondia Whitei',
+    // Price: '4.0026 $ (per KG)',
+    Price1:'6.1908 ( $ per KG)',
+    img1:require('../../Images/mondiaWhitei.jpg'),
+   },
+
+  {
+   title: 'Persley',
+   // Price: '4.6431 $ (per KG)',
+   Price1:'3.1668 ( $ per KG)',
+   img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/persley.jpeg',
+   },
+
+   {
+   title: 'Rosemars',
+   // Price: '3.2256 $ (per KG)',
+   Price1:'3.1668 ( $ per KG)',
+   img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/beetroot.jpeg',
+   },
+   
+
+   {
+   title: 'Thyme',
+   // Price: '2.9421 $ (per KG)',
+   Price1:'3.5448 ( $ per KG)',
+   img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/thyme.jpeg',
+ },
 ];
 
 

@@ -37,7 +37,7 @@ const SideBarSuwik = ({title1,title5,isOpen,toggle}) => {
 
                     {/* <SideBarLink to="/cart"> */}
                     <SideBarRoute to="/">
-                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>Contact us</Title>
+                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>Food sustainability</Title>
                     </SideBarRoute>
 
                     <SideBtnWrap>
