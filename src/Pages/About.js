@@ -5,12 +5,12 @@ import Navbar from '../Components/NavBar'
 import Footer from '../Components/Footer'
 // import AboutSuwik from '../Components/About'
 import AboutSection from '../Components/AboutSectionA'
-import { SectionAinfo } from '../Components/AboutSectionA/data'
-import TitleB from '../Components/secondTitle'
+import { SectionAinfo, SectionAinfoA, SectionAinfoB, SectionAinfoC } from '../Components/AboutSectionA/data'
+//import TitleB from '../Components/secondTitle'
 // import ContactTitleA from '../Components/ContactTitle'
-import { titleB } from '../Components/secondTitle/data'
+//import { titleB } from '../Components/secondTitle/data'
 import AboutSectionB from '../Components/AboutSectionB'
-import { SectionBinfo } from '../Components/AboutSectionB/data'
+import { SectionBinfo, SectionBinfoA, SectionBinfoB } from '../Components/AboutSectionB/data'
 
 
 const About = () => {
@@ -19,8 +19,13 @@ const About = () => {
         <Navbar/>
         <ContactTitleA  {...titleA}/>
         <AboutSection {...SectionAinfo}/>
-        <TitleB  {...titleB}/>
+        {/* <TitleB  {...titleB}/> */}
         <AboutSectionB {...SectionBinfo }/>
+        <AboutSection {...SectionAinfoA}/>
+        <AboutSectionB {...SectionBinfoA }/>
+        <AboutSection {...SectionAinfoB}/>
+        <AboutSectionB {...SectionBinfoB }/>
+        <AboutSection {...SectionAinfoC}/>
         <Footer/>
         
         </div>
