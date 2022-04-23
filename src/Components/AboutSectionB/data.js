@@ -6,8 +6,8 @@ export const SectionBinfo = {
     text:' Customer satisfaction is our top priority',
     text1:'High quality, fresh, healthy food produced in an environmentally friendly way',
     imgStart:false,
-    img:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/thyme.jpeg',
-    alt:'Car',
+    img:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/sustainabilityB.jpeg',
+    alt:'SUWIK core values and objectives',
 };
 
 export const SectionBinfoA = {
@@ -18,7 +18,7 @@ export const SectionBinfoA = {
     text1:'Shipped to the customer.',
     imgStart:false,
     img:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/thyme.jpeg',
-    alt:'Car',
+    alt:'SUWIK how we work',
 };
 
 
@@ -29,17 +29,10 @@ export const SectionBinfoB = {
     text:' Hyper and super markets',
     text1:'Institutions.',
     imgStart:false,
-    img:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/thyme.jpeg',
-    alt:'Car',
+    img:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/targetMarket.png',
+    alt:'SUWIK target market segment',
 };
-export const homeObjC = {
-    id:'about',
-    title:'Women In Coffee',
-    headline:
-    'We are committed to changing the world through our most loved drink, coffee and serving you. A percentage of our after tax proﬁts support various coffee organizations and projects that advocate for young girls and women in Uganda.we try our best to empower, advance and connect women in the coffee value chain.',
-    imgStart:false,
-    img:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/thyme.jpeg',
-    alt:'Car',
-};
+
+
 
 
