@@ -98,7 +98,7 @@ const data = [
     title: 'Fresh Oranges ( HS Code )',
     // Price: '2.0916 ( $ per KG)',
     Price1:'4.6208 ( $ per KG)',
-    img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/freshOranges.jpeg',
+    img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/oranges.jpeg',
     },
 
     {
@@ -156,7 +156,7 @@ const data = [
      title: 'Pawpaw',
      // Price: '4.0761 $ (per KG)',
      Price1:'5.4348 ( $ per KG)',
-     img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/pawpaw.jpg',
+     img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/pawpaw.jpeg',
     },
     
     {
@@ -266,7 +266,7 @@ const data = [
         title: 'Colored pepper',
         // Price: '5.2101 $ (per KG)',
         Price1:'6.9468 ( $ per KG)',
-        img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/coloredPepper.jpeg',
+        img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/coloredPeppers.jpeg',
         
       },
     

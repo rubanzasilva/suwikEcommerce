@@ -7,7 +7,7 @@ export const GridWrapper = styled.ul`
  background-color:#F7F2EF;
  list-style-type:none;
  margin:56px;
- height:60%;
+ height:auto;
  
 @media screen and (max-width:960px) {
     grid-template-columns:1fr;
@@ -72,7 +72,7 @@ export const ImgWrap = styled.div`
 export const Img = styled.img`
     margin:auto;
    width:100%;
-   height:600px;
+   height:auto;
    object-fit:contain;
    left:0;
  display:flex; 
