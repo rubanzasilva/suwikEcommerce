@@ -1,9 +1,9 @@
 import React from 'react';
 import {FooterContainer,FooterWrap,FooterLinksContainer,FooterLinksWrapper,FooterLinkItems,FooterLinkTitle,FooterLink,SocialMedia,SocialMediaWrap,SocialLogo,SocialIcons,SocialIconLink,WebsiteRights,Img, LocationOnMap} from './FooterElements';
-import {FaFacebook,FaInstagram,FaWhatsapp,FaTwitter,FaTiktok} from 'react-icons/fa';
+//import {FaFacebook,FaInstagram,FaWhatsapp,FaTwitter,FaTiktok} from 'react-icons/fa';
 import {BackTop} from 'antd';
 import 'antd/dist/antd.css';
-import { Button } from 'antd';
+//import { Button } from 'antd';
 // import logo from '../../Images/logox.png';
 import GoogleMaps from '../Map';
 

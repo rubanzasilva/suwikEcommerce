@@ -21,8 +21,8 @@ const SideBarSuwik = ({title1,title5,isOpen,toggle}) => {
                     <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",marginTop:"6px",fontFamily:"Lato,Roboto"}}>About SUWIK</Title>
                     </SideBarRoute>
 
-                    <SideBarRoute to="/"> 
-                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>Cereals</Title>
+                    <SideBarRoute to="/About"> 
+                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>About</Title>
                     </SideBarRoute>
                     
                     {/* <SideBarLink to="/RoastedBeans"> */}
@@ -32,7 +32,7 @@ const SideBarSuwik = ({title1,title5,isOpen,toggle}) => {
 
                     {/* <SideBarLink to="/shop"> */}
                     <SideBarRoute to="/">
-                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>How we work</Title>
+                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>Cereals</Title>
                     </SideBarRoute>
 
                     {/* <SideBarLink to="/cart"> */}

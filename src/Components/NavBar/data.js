@@ -1,6 +1,6 @@
 export const homeObjY = {
     id:'about',
-    img:require('../../Images/logoblack.jpg'),
+    img:' https://d2kmvpaplrh563.cloudfront.net/zicofe-photos/wic.jpeg',
     alt:'Car',
 };
 

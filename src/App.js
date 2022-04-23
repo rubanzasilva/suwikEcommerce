@@ -2,6 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router,Routes, Route} from 'react-router-dom';
 import CookieConsent from "react-cookie-consent";
 import Home from './Pages';
+// import AboutSuwik from './Components/About';
+// import AboutSection from './Components/AboutSectionA';
+import About from './Pages/About';
 
 const App = () => {
   return (
@@ -22,7 +25,7 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        {/* <Route path="/about" element={<About />}></Route> */}
+        <Route path="/About" element={<About />}></Route>
       </Routes>
     </Router>
   )

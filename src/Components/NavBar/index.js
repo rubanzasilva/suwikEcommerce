@@ -1,14 +1,14 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
 import {Nav,NavBarContainer,NavLogo,MobileIcon,NavMenu,NavItem,NavLinks,NavBtn,NavBtnLink,Img} from './NavBarElements';
-// import logo from '../../Images/logox.png';
+
 import 'antd/dist/antd.css';
 
 import { Typography } from 'antd';
 
 const { Title } = Typography;
 
-const NavBar = ({toggle,img,alt}) => {
+const Navbar = ({toggle,img,alt}) => {
     return (
         <>
           <Nav>
@@ -24,7 +24,7 @@ const NavBar = ({toggle,img,alt}) => {
 
                   <NavMenu>
                       <NavItem>
-                          <NavLinks to="/ ">About Suwik</NavLinks>
+                          <NavLinks to="/About ">About Suwik</NavLinks>
                           {/* <NavLinks to="/ContactUs">About Zicofe</NavLinks> */}
                       </NavItem>
                       
@@ -57,4 +57,4 @@ const NavBar = ({toggle,img,alt}) => {
     )
 }
 
-export default NavBar
+export default Navbar

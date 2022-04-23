@@ -1,9 +1,8 @@
-
 import React, {useState}from 'react';
 import SideBarSuwik from '../Components/SideBar/index';
-import NavBar from '../Components/NavBar/index';
 import Footer from '../Components/Footer/index';
 import HeroSection from '../Components/Hero';
+import Navbar from '../Components/NavBar/index';
 
 
 // import SideBar from './Components/SideBar';
@@ -23,7 +22,7 @@ const Home = () => {
         <SideBarSuwik isOpen={isOpen} toggle={toggle}/>
 {/*         
         <SideBar  isOpen={isOpen} toggle={toggle}/> */}
-        <NavBar toggle={toggle}/>
+        <Navbar toggle={toggle}/>
         <HeroSection/>
         <Footer/>
             

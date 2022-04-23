@@ -456,7 +456,7 @@ const data = [
        title: 'Hibiscus',
        // Price: '4.6788 $ (per KG)',
        Price1:'13.7508 ( $ per KG)',
-       img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/hibiscus.jpeg',
+       img1:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/Hibiscus.jpeg',
       },
   
       {
