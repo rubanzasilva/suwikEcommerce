@@ -17,7 +17,7 @@ export const SectionBinfoA = {
     text:'  Products are harvested, packed, and checked by the local authorities',
     text1:'Shipped to the customer.',
     imgStart:false,
-    img:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/thyme.jpeg',
+    img:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/work.jpeg',
     alt:'SUWIK how we work',
 };
 
@@ -29,7 +29,7 @@ export const SectionBinfoB = {
     text:' Hyper and super markets',
     text1:'Institutions.',
     imgStart:false,
-    img:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/targetMarket.png',
+    img:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/targetMarketA.jpeg',
     alt:'SUWIK target market segment',
 };
 
