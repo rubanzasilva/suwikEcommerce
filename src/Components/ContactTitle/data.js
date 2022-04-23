@@ -1,6 +1,6 @@
 export const titleA = {
     id:'ContactTitle',
-    title:'Contacting Zicofe',
+    title:'About Suwik Foods',
 };
 
 export const homeObjZ = {
