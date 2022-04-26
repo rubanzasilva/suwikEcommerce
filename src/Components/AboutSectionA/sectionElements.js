@@ -82,7 +82,7 @@ export const Img = styled.img`
  @media screen and (max-width:720px) {
      flex-direction:column;
      align-items:center;
-     margin-top:-180px;
+     margin-top:auto;
 
  }
 `
