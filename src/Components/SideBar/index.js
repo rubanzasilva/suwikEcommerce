@@ -17,7 +17,7 @@ const SideBarSuwik = ({title1,title5,isOpen,toggle}) => {
             <SideBarWrapper>
                 <SideBarMenu>
                     {/* <SideBarLink to="/About"> */}
-                    <SideBarRoute to="/">
+                    <SideBarRoute to="/About">
                     <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",marginTop:"6px",fontFamily:"Lato,Roboto"}}>About SUWIK</Title>
                     </SideBarRoute>
 
