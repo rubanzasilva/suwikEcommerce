@@ -4,7 +4,8 @@ import CookieConsent from "react-cookie-consent";
 import Home from './Pages';
 // import AboutSuwik from './Components/About';
 // import AboutSection from './Components/AboutSectionA';
-import About from './Pages/About';
+// import About from './Pages/About';
+import ProductCatalog from './Pages/About';
 
 const App = () => {
   return (
@@ -25,7 +26,7 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/About" element={<About />}></Route>
+        <Route path="/ProductCatalog" element={<ProductCatalog />}></Route>
       </Routes>
     </Router>
   )
