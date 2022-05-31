@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const GridWrapper = styled.ul`
  display:grid;
- grid-template-columns:1fr 2fr;
+ grid-template-columns:1fr 1fr;
  background-color:#F7F2EF;
  list-style-type:none;
  margin:56px;

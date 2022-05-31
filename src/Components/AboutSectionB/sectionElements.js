@@ -1,16 +1,13 @@
 import styled from "styled-components";
 
-// export const GridContainer = styled.div`
-//  height:800px;
-//  width:1200px;
-//  display:grid;
-// `
+
 export const GridWrapper = styled.ul`
  display:grid;
- grid-template-columns:2fr 1fr;
+ grid-template-columns:1fr 1fr;
  background-color:#F7F2EF;
  list-style-type:none;
  margin:56px;
+ height:auto;
  
 @media screen and (max-width:960px) {
     grid-template-columns:1fr;
@@ -25,14 +22,13 @@ export const GridItem = styled.li`
 background-color:#F7F2EF;
 text-align:center;
 
-& .GridItemOne{
-    
+& .InfoSectionTextWrap{
 
     @media screen and (max-width:960px) {
     }
 }
 
-& .GridItemTwo{
+& .InfoSectionImageWrap{
     @media screen and (max-width:960px) {
     }
 }
@@ -76,7 +72,7 @@ export const ImgWrap = styled.div`
 export const Img = styled.img`
     margin:auto;
    width:100%;
-   height:600px;
+   height:auto;
    object-fit:contain;
    left:0;
  display:flex; 
