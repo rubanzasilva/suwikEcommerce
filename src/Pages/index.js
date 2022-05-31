@@ -1,31 +1,33 @@
-import React, {useState}from 'react';
-import SideBarSuwik from '../Components/SideBar/index';
-import Footer from '../Components/Footer/index';
-import HeroSection from '../Components/Hero';
-import Navbar from '../Components/NavBar/index';
-
-
-// import SideBar from './Components/SideBar';
-// import NavBar from './components/NavBar';
-// import Footer from './components/Footer';
+import React from 'react'
+import ContactTitleA from '../Components/ContactTitle'
+import { titleA } from '../Components/ContactTitle/data'
+import Navbar from '../Components/NavBar'
+import Footer from '../Components/Footer'
+// import AboutSuwik from '../Components/About'
+import AboutSection from '../Components/AboutSectionA'
+import { SectionAinfo, SectionAinfoA, SectionAinfoB, SectionAinfoC } from '../Components/AboutSectionA/data'
+//import TitleB from '../Components/secondTitle'
+// import ContactTitleA from '../Components/ContactTitle'
+//import { titleB } from '../Components/secondTitle/data'
+import AboutSectionB from '../Components/AboutSectionB'
+import { SectionBinfo, SectionBinfoA, SectionBinfoB } from '../Components/AboutSectionB/data'
 
 
 const Home = () => {
-    const [isOpen, setIsOpen] = useState(false);
-
-    const toggle = () => {
-        setIsOpen(!isOpen)
-    };
-
     return (
         <div className='homeWrapper'>
-        <SideBarSuwik isOpen={isOpen} toggle={toggle}/>
-{/*         
-        <SideBar  isOpen={isOpen} toggle={toggle}/> */}
-        <Navbar toggle={toggle}/>
-        <HeroSection/>
+        <Navbar/>
+        <ContactTitleA  {...titleA}/>
+        <AboutSection {...SectionAinfo}/>
+        {/* <TitleB  {...titleB}/> */}
+        <AboutSectionB {...SectionBinfo }/>
+        <AboutSection {...SectionAinfoA}/>
+        <AboutSectionB {...SectionBinfoA }/>
+        <AboutSection {...SectionAinfoB}/>
+        <AboutSectionB {...SectionBinfoB }/>
+        <AboutSection {...SectionAinfoC}/>
         <Footer/>
-            
+        
         </div>
     )
 }
