@@ -1,23 +1,38 @@
 //data for about zicofe section
 export const SectionBinfo = {
     id:'about',
-    title:'We use coffee roasting techniques',
-    headline:'refined and crafted over generations to create a unique flavor profile that is unique to each coffee bean. ',
-    text:' We further invested in a 50kg-per-batch and a 25kg-per-batch roastery that roasts the Zicofe blend medium roast ',
-    text1:'We also offer toll roasting services to coffee farmers, buyers and enthusiasts',
+    title:'Core values and objectives',
+    headline:'Producing food in a sustainable way ',
+    text:' Customer satisfaction is our top priority',
+    text1:'High quality, fresh, healthy food produced in an environmentally friendly way',
     imgStart:false,
-    img:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/thyme.jpeg',
-    alt:'Car',
+    img:'https://d322abd807wvow.cloudfront.net/suwik-photos/sustainabilityB.jpeg',
+    alt:'SUWIK core values and objectives',
 };
 
-export const homeObjC = {
+export const SectionBinfoA = {
     id:'about',
-    title:'Women In Coffee',
-    headline:
-    'We are committed to changing the world through our most loved drink, coffee and serving you. A percentage of our after tax proﬁts support various coffee organizations and projects that advocate for young girls and women in Uganda.we try our best to empower, advance and connect women in the coffee value chain.',
+    title:'How We Work',
+    headline:'Business is confirmed ',
+    text:'  Products are harvested, packed, and checked by the local authorities',
+    text1:'Shipped to the customer.',
     imgStart:false,
-    img:'https://d2kmvpaplrh563.cloudfront.net/suwik-photos/thyme.jpeg',
-    alt:'Car',
+    img:'https://d322abd807wvow.cloudfront.net/suwik-photos/work.jpeg',
+    alt:'SUWIK how we work',
 };
+
+
+export const SectionBinfoB = {
+    id:'about',
+    title:'Target market segment',
+    headline:'Our target market is global ',
+    text:' Hyper and super markets',
+    text1:'Institutions.',
+    imgStart:false,
+    img:'https://d322abd807wvow.cloudfront.net/suwik-photos/targetMarketA.jpeg',
+    alt:'SUWIK target market segment',
+};
+
+
 
 

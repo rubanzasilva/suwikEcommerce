@@ -3,10 +3,11 @@ import styled from "styled-components";
 
 export const GridWrapper = styled.ul`
  display:grid;
- grid-template-columns:1fr 2fr;
+ grid-template-columns:1fr 1fr;
  background-color:#F7F2EF;
  list-style-type:none;
  margin:56px;
+ height:auto;
  
 @media screen and (max-width:960px) {
     grid-template-columns:1fr;
@@ -71,7 +72,7 @@ export const ImgWrap = styled.div`
 export const Img = styled.img`
     margin:auto;
    width:100%;
-   height:600px;
+   height:auto;
    object-fit:contain;
    left:0;
  display:flex; 
@@ -81,7 +82,7 @@ export const Img = styled.img`
  @media screen and (max-width:720px) {
      flex-direction:column;
      align-items:center;
-     margin-top:-180px;
+     margin-top:auto;
 
  }
 `

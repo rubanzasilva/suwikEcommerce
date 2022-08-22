@@ -24,7 +24,7 @@ const Navbar = ({toggle,img,alt}) => {
 
                   <NavMenu>
                       <NavItem>
-                          <NavLinks to="/About ">About Suwik</NavLinks>
+                          <NavLinks to="/ProductCatalog ">Our Products</NavLinks>
                           {/* <NavLinks to="/ContactUs">About Zicofe</NavLinks> */}
                       </NavItem>
                       
@@ -37,7 +37,7 @@ const Navbar = ({toggle,img,alt}) => {
 
 
                       <NavItem>
-                          <NavLinks to="/">Product catalog</NavLinks>
+                          <NavLinks to="/">Shop Now</NavLinks>
                           {/* <NavLinks to="/shop">Shop</NavLinks> */}
                       </NavItem>
 
