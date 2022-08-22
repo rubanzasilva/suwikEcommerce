@@ -313,7 +313,7 @@ const data = [
         title: 'Green peppers',
         // Price: '2.9421 ( $ per KG)',
         Price1: '3.9228 ( $ per KG)',
-       img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/greenPeppers.jpeg',
+       img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/greenPepper.jpeg',
          },
     
     
