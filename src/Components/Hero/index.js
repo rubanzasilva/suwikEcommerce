@@ -333,7 +333,7 @@ const data = [
     },
 
     {
-      title: 'Plantain',
+      title: 'Matooke',
       // Price: '2.0916 ( $ per KG)',
       Price1:'5.0568 ( $ per KG)',
       img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/plantain.jpeg',
