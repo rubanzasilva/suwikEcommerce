@@ -292,7 +292,7 @@ const data = [
        title: 'Garlic',
       //  Price: '6.0606 ( $ per KG)',
        Price1: '8.0808 ( $ per KG)',
-       img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/garlic.jpeg',
+       img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/Garlic.jpeg',
       },
       {
          title: 'Green Amaranth',
