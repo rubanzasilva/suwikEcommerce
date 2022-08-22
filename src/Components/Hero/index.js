@@ -149,7 +149,7 @@ const data = [
     title: 'Passion Fruit',
     // Price: ' $ (per KG)',
     Price1:'5.0568 ( $ per KG)',
-    img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/passionFruit.jpeg',
+    img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/passionFruitsClear.jpeg',
     },
 
     {
@@ -229,7 +229,7 @@ const data = [
      title: 'Butter nuts',
         // Price: '3.1101 $ (per KG)',
     Price1:'4.1468 ( $ per KG)',
-       img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/butternuts.jpeg',
+       img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/butterNuts.jpeg',
       },
       {
         title: 'Cauli Flower',
@@ -276,7 +276,7 @@ const data = [
        title: 'Cucumbers',
       //  Price: '2.6586 ( $ per KG)',
        Price1: '3.5448 ( $ per KG)',
-     img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/cucumbers.jpeg',
+     img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/cucumber.jpeg',
        },
     
     
