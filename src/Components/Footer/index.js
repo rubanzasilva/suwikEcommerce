@@ -26,9 +26,9 @@ const Footer = () => {
 
                      <FooterLinkTitle>About us</FooterLinkTitle>
    
-                     <FooterLink to="/About">History</FooterLink>
-                     <FooterLink to="/About">Testimonials</FooterLink>
-                     <FooterLink to="/About">SUWIK in the community</FooterLink>
+                     <FooterLink to="/">History</FooterLink>
+                     <FooterLink to="/">Testimonials</FooterLink>
+                     <FooterLink to="/">SUWIK in the community</FooterLink>
                      
 
                  </FooterLinkItems>
@@ -37,9 +37,9 @@ const Footer = () => {
 
                      <FooterLinkTitle>Cereals</FooterLinkTitle>
    
-                     <FooterLink to="/GreenBeans">Maize</FooterLink>
-                     <FooterLink to="/GreenBeans">Sim sim</FooterLink>
-                     <FooterLink to="/GreenBeans">Sorghum</FooterLink>
+                     <FooterLink to="/ProductCatalog">Maize</FooterLink>
+                     <FooterLink to="/ProductCatalog">Sim sim</FooterLink>
+                     <FooterLink to="/ProductCatalog">Soya beans</FooterLink>
                      {/* <FooterLink to="/GreenBeans">Black beans</FooterLink> */}
                      
 
@@ -49,9 +49,9 @@ const Footer = () => {
 
                      <FooterLinkTitle>Fruits</FooterLinkTitle>
    
-                     <FooterLink to="/About">Ovacado</FooterLink>
-                     <FooterLink to="/About">Mangoes</FooterLink>
-                     <FooterLink to="/About">Passion fruits</FooterLink>
+                     <FooterLink to="/ProductCatalog">Ovacado</FooterLink>
+                     <FooterLink to="/ProductCatalog">Mangoes</FooterLink>
+                     <FooterLink to="/ProductCatalog">Passion fruits</FooterLink>
                      {/* <Link> <a href='http://www.zicofecafe.com'>ZICOFE Cafe</a></Link> */}
                      
 
@@ -63,14 +63,9 @@ const Footer = () => {
                      <FooterLinkTitle>Reach Us</FooterLinkTitle>
    
                      <FooterLink to="/ContactUs">Contact us</FooterLink>
-                     <FooterLink to="/About">Blog</FooterLink>
-                     <FooterLink to="/About">Merchandise</FooterLink>
-                     <FooterLink to="/ContactUs"> Contact Us
-                     
-                     </FooterLink>
-                     
-
-
+                     <FooterLink to="/">Blog</FooterLink>
+                     <FooterLink to="/">Merchandise</FooterLink>
+                    
                  </FooterLinkItems>
                  
 
