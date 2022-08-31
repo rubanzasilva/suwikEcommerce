@@ -37,7 +37,7 @@ const Navbar = ({toggle,img,alt}) => {
 
 
                       <NavItem>
-                          <NavLinks to="/">Shop Now</NavLinks>
+                          <NavLinks to="/ProductCatalog">Shop Now</NavLinks>
                           {/* <NavLinks to="/shop">Shop</NavLinks> */}
                       </NavItem>
 
