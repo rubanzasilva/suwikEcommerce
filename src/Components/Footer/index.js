@@ -4,7 +4,7 @@ import {FooterContainer,FooterWrap,FooterLinksContainer,FooterLinksWrapper,Foote
 import {BackTop} from 'antd';
 import 'antd/dist/antd.css';
 //import { Button } from 'antd';
-// import logo from '../../Images/logox.png';
+import logo from '../../Images/suwikLogo.jpeg';
 // import GoogleMaps from '../Map';
 
 // const location = {
@@ -87,8 +87,8 @@ const Footer = () => {
             <SocialMedia>
                 <SocialMediaWrap>
                     <SocialLogo to="/"> 
-                    <p>SUWIK</p> 
-                    {/* <Img src={logo} alt='ZICOFE LOGO'/> */}
+                    {/* <p>SUWIK</p>  */}
+                    <Img src={logo} alt='SUWIK INVESTMENTS'/>
                     </SocialLogo>
                     <WebsiteRights>SUWIK INVESTMENTS © {new Date().getFullYear()}
                     All rights reserved.</WebsiteRights>

@@ -123,9 +123,15 @@ export const SocialIconLink = styled.a`
 `
 
 export const Img = styled.img`  
-  
-    object-fit: cover;
+    height:60px;
+    width:60px;
+    object-fit: contain;
     border-radius: 4px;
+
+    @media screen and (max-width:960px) {
+    padding:0px 0px 32px ;
+}
+
 `
 
 export const LocationOnMap = styled.div`
