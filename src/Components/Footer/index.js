@@ -5,13 +5,13 @@ import {BackTop} from 'antd';
 import 'antd/dist/antd.css';
 //import { Button } from 'antd';
 // import logo from '../../Images/logox.png';
-import GoogleMaps from '../Map';
+// import GoogleMaps from '../Map';
 
-const location = {
-    address: 'Zigoti Coffee Works Ltd',
-    lat: 0.31952388690630096,
-    lng: 32.612368559943604,
-  } // our location object from earlier
+// const location = {
+//     address: 'Zigoti Coffee Works Ltd',
+//     lat: 0.31952388690630096,
+//     lng: 32.612368559943604,
+//   } // our location object from earlier
 
 
 const Footer = () => {
@@ -80,9 +80,9 @@ const Footer = () => {
 
             </FooterLinksContainer>
 
-            <LocationOnMap>
+            {/* <LocationOnMap>
             <GoogleMaps location={location} zoomLevel={17} />
-            </LocationOnMap>
+            </LocationOnMap> */}
 
             <SocialMedia>
                 <SocialMediaWrap>
