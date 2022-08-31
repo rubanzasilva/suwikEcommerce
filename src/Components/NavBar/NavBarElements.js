@@ -17,6 +17,7 @@ export const Nav = styled.nav`
 
  @media screen and (max-width:960px) {
      transition: 0.8s all ease;
+     height:80px;
  }
 `
 
@@ -105,6 +106,8 @@ export const NavLinks = styled(LinkR)`
  font-family:"Lato","Roboto","Helvetica Neue",sans-serif;
  font-size:16px;
 
+ 
+
  &:visited {
     color:blurywood;
 }
@@ -132,15 +135,18 @@ export const NavLinks = styled(LinkR)`
 export const NavBtn = styled.nav`
  display:flex;
  align-items:center;
+ height:80px;
 
 
  @media screen and (max-width:768px) {
      display:none;
  }
+ ${'' /* height:80px;
+ font-family:"Lato","Roboto","Helvetica Neue",sans-serif; */}
 `
 
 export const NavBtnLink = styled(LinkR)`
- color:#3da35d;
+ color:#00a886;
  display: flex;
  justify-content:flex-end;
  margin-left:16px;
@@ -162,4 +168,11 @@ export const Img = styled.img`
     width:64px;
     object-fit: contain;
     border-radius: 4px;
+
+    @media screen and (max-width:960px) {
+     transition: 0.8s all ease;
+     height:44px;
+ }
+
+
 `

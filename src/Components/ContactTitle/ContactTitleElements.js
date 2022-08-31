@@ -7,7 +7,8 @@ export const TitleContainer = styled.div`
     align-items:center;
     ${'' /* position:sticky; */}
     top:0;
-    background-color: #F7F2EF;
+    ${'' /* background-color: #F7F2EF; */}
+    background-color: #ffffff;
     cursor:pointer;
     font-family:"Lato","Roboto","Helvetica Neue",sans-serif;
     `
