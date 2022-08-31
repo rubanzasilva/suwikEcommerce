@@ -9,7 +9,13 @@ const { Title } = Typography;
 
 const SideBarSuwik = ({title1,title5,isOpen,toggle}) => {
     return (
-        <SideBarContainer isOpen={isOpen} onClick={toggle}>
+        <SideBarContainer 
+        // isOpen={isOpen} onClick={toggle}>
+        //     <Icon onClick={toggle}>
+        //         <CloseIcon/>
+        //     </Icon>
+
+        isOpen={isOpen} onClick={toggle}>
             <Icon onClick={toggle}>
                 <CloseIcon/>
             </Icon>
