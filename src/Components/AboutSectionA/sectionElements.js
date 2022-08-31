@@ -4,10 +4,13 @@ import styled from "styled-components";
 export const GridWrapper = styled.ul`
  display:grid;
  grid-template-columns:1fr 1fr;
- background-color:#F7F2EF;
+ ${'' /* background-color:#F7F2EF; */}
+ background-color: #00a886;
  list-style-type:none;
  margin:56px;
+ ${'' /* padding:8px 0px 8px 56px; */}
  height:auto;
+ 
  
 @media screen and (max-width:960px) {
     grid-template-columns:1fr;
@@ -19,7 +22,8 @@ export const GridWrapper = styled.ul`
 
 
 export const GridItem = styled.li`
-background-color:#F7F2EF;
+${'' /* background-color:#f8f9fa; */}
+background-color:#ffffff;
 text-align:center;
 
 & .InfoSectionTextWrap{

@@ -2,7 +2,7 @@ import styled from "styled-components";
 import {Link} from 'react-router-dom';
 
 export const HeroSectionContainer = styled.section`
-    background: #fff;
+    background-color: #ffffff;
     padding: 0px;
     margin: 0px;
     width: 100%;

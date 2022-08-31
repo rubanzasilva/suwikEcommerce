@@ -3,7 +3,7 @@ import {Link as LinkR} from 'react-router-dom';
 //import {NavLink as LinkNav} from 'react-router-dom';
 
 export const Nav = styled.nav`
- height: 80px;
+ height: 120px;
  margin-top:10px;
  display:flex;
  justify-content:center;
@@ -11,12 +11,13 @@ export const Nav = styled.nav`
  position:sticky;
  top:0;
  border:border-box;
- background-color: #F7F2EF;
+ background-color: #ffffff;
  cursor:pointer;
  font-family:"Lato","Roboto","Helvetica Neue",sans-serif;
 
  @media screen and (max-width:960px) {
      transition: 0.8s all ease;
+     height:80px;
  }
 `
 
@@ -103,7 +104,9 @@ export const NavLinks = styled(LinkR)`
  height:100%;
  cursor:pointer;
  font-family:"Lato","Roboto","Helvetica Neue",sans-serif;
- font-size:14px;
+ font-size:16px;
+
+ 
 
  &:visited {
     color:blurywood;
@@ -132,15 +135,18 @@ export const NavLinks = styled(LinkR)`
 export const NavBtn = styled.nav`
  display:flex;
  align-items:center;
+ height:80px;
 
 
  @media screen and (max-width:768px) {
      display:none;
  }
+ ${'' /* height:80px;
+ font-family:"Lato","Roboto","Helvetica Neue",sans-serif; */}
 `
 
 export const NavBtnLink = styled(LinkR)`
- color:#2c8746;
+ color:#00a886;
  display: flex;
  justify-content:flex-end;
  margin-left:16px;
@@ -148,7 +154,7 @@ export const NavBtnLink = styled(LinkR)`
  font-style: normal;
  text-align:center;
  font-weight:400;
- font-size: 14px;
+ font-size: 16px;
  line-height: 1.381;
  padding:12px;
  
@@ -158,7 +164,15 @@ export const NavBtnLink = styled(LinkR)`
  }
 `
 export const Img = styled.img`  
-  
-    object-fit: cover;
+    height:78px;
+    width:64px;
+    object-fit: contain;
     border-radius: 4px;
+
+    @media screen and (max-width:960px) {
+     transition: 0.8s all ease;
+     height:44px;
+ }
+
+
 `

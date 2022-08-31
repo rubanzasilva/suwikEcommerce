@@ -6,7 +6,7 @@ export const titleA = {
 
 export const homeObjZ = {
     id:'ContactTitle',
-    title:'C0-OPORATE ADDRESS',
+    title:'Contacting Suwik ',
 };
 
 
