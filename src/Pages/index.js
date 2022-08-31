@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import ContactTitleA from '../Components/ContactTitle'
 import { titleA } from '../Components/ContactTitle/data'
 import Navbar from '../Components/NavBar'
@@ -11,12 +11,19 @@ import { SectionAinfo, SectionAinfoA, SectionAinfoB, SectionAinfoC } from '../Co
 //import { titleB } from '../Components/secondTitle/data'
 import AboutSectionB from '../Components/AboutSectionB'
 import { SectionBinfo, SectionBinfoA, SectionBinfoB } from '../Components/AboutSectionB/data'
+import SideBarSuwik from '../Components/SideBar'
 
 
 const Home = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggle = () => {
+        setIsOpen(!isOpen)
+    };
     return (
         <div className='homeWrapper'>
-        <Navbar/>
+        <SideBarSuwik isOpen={isOpen} toggle={toggle} />
+        <Navbar toggle={toggle}/>
         <ContactTitleA  {...titleA}/>
         <AboutSection {...SectionAinfo}/>
         {/* <TitleB  {...titleB}/> */}
