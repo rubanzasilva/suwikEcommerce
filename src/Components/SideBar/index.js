@@ -32,22 +32,22 @@ const SideBarSuwik = ({title1,title5,isOpen,toggle}) => {
                     </SideBarRoute>
                     
                     {/* <SideBarLink to="/RoastedBeans"> */}
-                    <SideBarRoute to="/">
+                    <SideBarRoute to="/ProductCatalog">
                     <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>Fruits</Title>
                     </SideBarRoute>
 
                     {/* <SideBarLink to="/shop"> */}
-                    <SideBarRoute to="/">
+                    <SideBarRoute to="/ProductCatalog">
                     <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>Cereals</Title>
                     </SideBarRoute>
 
                     {/* <SideBarLink to="/cart"> */}
-                    <SideBarRoute to="/">
+                    <SideBarRoute to="/ProductCatalog">
                     <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>Food sustainability</Title>
                     </SideBarRoute>
 
                     <SideBtnWrap>
-                        <SideBarRoute to="/">
+                        <SideBarRoute to="/ProductCatalog">
                         <Button to="/" type="link" size="medium"  style={{color:"#008000",background:"#F7F2EF",
                        borderRadius:"6px",minWidth:"100px",marginTop:"15px"  }}>Contact Us { <RightOutlined />} </Button>
                         </SideBarRoute>
