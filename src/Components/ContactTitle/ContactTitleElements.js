@@ -18,5 +18,5 @@ export const ContactTitle = styled.div`
     display:flex;
     flex-direction:column;
     width:100%;
-    margin:80px;
+    margin:44px 0px 0px 0px;
     `

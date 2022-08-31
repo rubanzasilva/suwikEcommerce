@@ -33,7 +33,7 @@ const SideBarSuwik = ({title1,title5,isOpen,toggle}) => {
                     
                     {/* <SideBarLink to="/RoastedBeans"> */}
                     <SideBarRoute to="/ProductCatalog">
-                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>Fruits</Title>
+                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>Fruits & Vegetables</Title>
                     </SideBarRoute>
 
                     {/* <SideBarLink to="/shop"> */}
@@ -47,7 +47,7 @@ const SideBarSuwik = ({title1,title5,isOpen,toggle}) => {
                     </SideBarRoute>
 
                     <SideBtnWrap>
-                        <SideBarRoute to="/ProductCatalog">
+                        <SideBarRoute to="/ContactUs">
                         <Button to="/" type="link" size="medium"  style={{color:"#008000",background:"#F7F2EF",
                        borderRadius:"6px",minWidth:"100px",marginTop:"15px"  }}>Contact Us { <RightOutlined />} </Button>
                         </SideBarRoute>

@@ -32,7 +32,7 @@ const Navbar = ({toggle,img,alt}) => {
                       <NavItem>
 
                           {/* <NavLinks to="/cafe">Zicofe Cafe</NavLinks> */}
-                          <NavLinks to="/">Contact Us</NavLinks>
+                          <NavLinks to="/ContactUs">Contact Us</NavLinks>
                       </NavItem>
 
 

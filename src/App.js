@@ -7,6 +7,7 @@ import Home from './Pages';
 // import About from './Pages/About';
 import ProductCatalog from './Pages/About';
 import ReactGA from 'react-ga';
+import ContactUs from './Pages/contactUs';
 
 const TRACKING_ID = "G-H9CZWRWK0R"; // YOUR_OWN_TRACKING_ID
 
@@ -33,6 +34,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/ProductCatalog" element={<ProductCatalog />}></Route>
+        <Route path="/ContactUs" element={<ContactUs/>}></Route>
       </Routes>
 
       

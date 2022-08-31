@@ -1,7 +1,7 @@
 import React from 'react';
 import {FooterContainer,FooterWrap,FooterLinksContainer,FooterLinksWrapper,FooterLinkItems,FooterLinkTitle,FooterLink,SocialMedia,SocialMediaWrap,SocialLogo,SocialIcons,SocialIconLink,WebsiteRights,Img, LocationOnMap} from './FooterElements';
 //import {FaFacebook,FaInstagram,FaWhatsapp,FaTwitter,FaTiktok} from 'react-icons/fa';
-import {BackTop} from 'antd';
+import {BackTop, Collapse} from 'antd';
 import 'antd/dist/antd.css';
 //import { Button } from 'antd';
 import logo from '../../Images/suwikLogo.jpeg';
@@ -13,6 +13,8 @@ import logo from '../../Images/suwikLogo.jpeg';
 //     lng: 32.612368559943604,
 //   } // our location object from earlier
 
+
+const { Panel } = Collapse;
 
 const Footer = () => {
     return (
@@ -47,7 +49,7 @@ const Footer = () => {
 
                  <FooterLinkItems>
 
-                     <FooterLinkTitle>Fruits</FooterLinkTitle>
+                     <FooterLinkTitle>Fruits & Vegetables</FooterLinkTitle>
    
                      <FooterLink to="/ProductCatalog">Ovacado</FooterLink>
                      <FooterLink to="/ProductCatalog">Mangoes</FooterLink>
@@ -63,8 +65,8 @@ const Footer = () => {
                      <FooterLinkTitle>Reach Us</FooterLinkTitle>
    
                      <FooterLink to="/ContactUs">Contact us</FooterLink>
-                     <FooterLink to="/">Blog</FooterLink>
-                     <FooterLink to="/">Merchandise</FooterLink>
+                     <FooterLink to="/ContactUs">Blog</FooterLink>
+                     <FooterLink to="/ContactUs">Merchandise</FooterLink>
                     
                  </FooterLinkItems>
                  
@@ -85,6 +87,12 @@ const Footer = () => {
                     {/* <p>SUWIK</p>  */}
                     <Img src={logo} alt='SUWIK INVESTMENTS'/>
                     </SocialLogo>
+                    <Collapse id="accordionWrapper" accordion expandIconPosition='right' style={{fontSize:"16px" , backgroundColor:"#fff" }}>
+                        <Panel header="Contact Us" key="1">
+                            <p>wilson@suwik.xyz</p>
+                        </Panel>
+                        </Collapse>
+                    {/* <WebsiteRights>wilson@suwik.xyz</WebsiteRights> */}
                     <WebsiteRights>SUWIK INVESTMENTS © {new Date().getFullYear()}
                     All rights reserved.</WebsiteRights>
                     {/* <SocialIcons>
@@ -104,6 +112,7 @@ const Footer = () => {
                             <FaWhatsapp/>
                         </SocialIconLink>
                     </SocialIcons> */}
+                    
                 </SocialMediaWrap>
             </SocialMedia>
 
