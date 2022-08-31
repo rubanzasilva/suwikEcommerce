@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
 import {Nav,NavBarContainer,NavLogo,MobileIcon,NavMenu,NavItem,NavLinks,NavBtn,NavBtnLink,Img} from './NavBarElements';
-
+import logo from '../../Images/suwikLogo.jpeg';
 import 'antd/dist/antd.css';
 
 import { Typography } from 'antd';
@@ -14,8 +14,8 @@ const Navbar = ({toggle,img,alt}) => {
           <Nav>
               <NavBarContainer>
                   <NavLogo to='/'>
-                  SUWIK
-                      {/* <Img src={logo} alt={alt}/> */}
+                  {/* SUWIK */}
+                      <Img src={logo} alt={alt}/>
                   </NavLogo>
 
                   <MobileIcon onClick={toggle}>

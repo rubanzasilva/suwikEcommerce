@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const GridWrapper = styled.ul`
  display:grid;
  grid-template-columns:1fr 1fr;
- background-color:#F7F2EF;
+ background-color:#ffffff;
  list-style-type:none;
  margin:56px;
  height:auto;
