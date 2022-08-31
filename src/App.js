@@ -6,6 +6,12 @@ import Home from './Pages';
 // import AboutSection from './Components/AboutSectionA';
 // import About from './Pages/About';
 import ProductCatalog from './Pages/About';
+import ReactGA from 'react-ga';
+
+const TRACKING_ID = "G-H9CZWRWK0R"; // YOUR_OWN_TRACKING_ID
+
+ReactGA.initialize(TRACKING_ID);
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const App = () => {
   return (
@@ -28,6 +34,8 @@ const App = () => {
         <Route path="/" element={<Home />}></Route>
         <Route path="/ProductCatalog" element={<ProductCatalog />}></Route>
       </Routes>
+
+      
     </Router>
   )
 }
