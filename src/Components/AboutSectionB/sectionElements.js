@@ -36,8 +36,6 @@ text-align:center;
     }
 }
 
-
-
 `
 
 export const SectionText = styled.div`
@@ -48,8 +46,7 @@ export const SectionText = styled.div`
  text-align:center;
  align-content:center;
  padding:64px;
-
-
+ 
  @media screen and (max-width:780px) {
 
  }

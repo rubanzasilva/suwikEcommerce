@@ -113,8 +113,8 @@ export const NavLinks = styled(LinkR)`
 }
 
 &:hover {
-    color:#2c8746;
-    border-bottom: 2px solid #2c8746;
+    color:#00a886;
+    border-bottom: 2px solid #00a886;
     
 }
 
@@ -160,7 +160,7 @@ export const NavBtnLink = styled(LinkR)`
  
  &:hover {
      transition: all 0.2s ease-in-out;
-     border-bottom: 2px solid green;
+     border-bottom: 2px solid #00a886;
  }
 `
 export const Img = styled.img`  
