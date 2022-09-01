@@ -184,3 +184,19 @@ export const HeroIcon = styled.img`
  width:50%;
  padding-bottom:36px;
 `
+
+export const BtnWrap = styled.div`
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    margin-top:64px;
+
+    @media screen and (max-width: 768px) {
+
+        flex-basis:100%;
+    }
+`
