@@ -12,6 +12,8 @@ import { SectionAinfo, SectionAinfoA, SectionAinfoB, SectionAinfoC } from '../Co
 import AboutSectionB from '../Components/AboutSectionB'
 import { SectionBinfo, SectionBinfoA, SectionBinfoB } from '../Components/AboutSectionB/data'
 import SideBarSuwik from '../Components/SideBar'
+import HeroCategory from '../Components/homePageHero'
+import { homeObjX } from '../Components/homePageHero/data'
 
 
 const Home = () => {
@@ -24,7 +26,8 @@ const Home = () => {
         <div className='homeWrapper'>
         <SideBarSuwik isOpen={isOpen} toggle={toggle} />
         <Navbar toggle={toggle}/>
-        <ContactTitleA  {...titleA}/>
+        {/* <ContactTitleA  {...titleA}/> */}
+        <HeroCategory {...homeObjX} />
         <AboutSection {...SectionAinfo}/>
         {/* <TitleB  {...titleB}/> */}
         <AboutSectionB {...SectionBinfo }/>

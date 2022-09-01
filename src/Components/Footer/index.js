@@ -87,7 +87,7 @@ const Footer = () => {
                     {/* <p>SUWIK</p>  */}
                     <Img src={logo} alt='SUWIK INVESTMENTS'/>
                     </SocialLogo>
-                    <Collapse id="accordionWrapper" accordion expandIconPosition='right' style={{fontSize:"16px" , backgroundColor:"#fff" }}>
+                    <Collapse id="accordionWrapper" accordion expandIconPosition='right' style={{fontSize:"16px" , backgroundColor:"#fff" , marginBottom:"8px"}}>
                         <Panel header="Contact Us" key="1">
                             <p>wilson@suwik.xyz</p>
                         </Panel>
