@@ -94,7 +94,7 @@ const Footer = () => {
                         </Collapse>
                     {/* <WebsiteRights>wilson@suwik.xyz</WebsiteRights> */}
                     <WebsiteRights>SUWIK INVESTMENTS © {new Date().getFullYear()}
-                    All rights reserved.</WebsiteRights>
+                      All rights reserved.</WebsiteRights>
                     {/* <SocialIcons>
                         <SocialIconLink href="https://www.facebook.com/ZigotiCoffee" target="_blank" arial-label="Facebook">
                             <FaFacebook/>
