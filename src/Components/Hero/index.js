@@ -560,7 +560,7 @@ const data = [
    },
 
    {
-   title: 'Rosemars',
+   title: 'Rosemary',
    // Price: '3.2256 $ (per KG)',
    Price1:'3.1668 ( $ per KG)',
    img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/beetroot.jpeg',
