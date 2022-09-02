@@ -333,12 +333,12 @@ const data = [
       img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/okra.jpeg',
     },
 
-    {
-      title: 'Matooke',
-      // Price: '2.0916 ( $ per KG)',
-      Price1:'5.0568 ( $ per KG)',
-      img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/plantain.jpeg',
-    },
+    // {
+    //   title: 'Matooke',
+    //   // Price: '2.0916 ( $ per KG)',
+    //   Price1:'5.0568 ( $ per KG)',
+    //   img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/plantain.jpeg',
+    // },
     {
       title: 'Pok Choy',
       // Price: '3.0838 ( $ per KG)',
@@ -349,7 +349,7 @@ const data = [
       title: 'Pumpkin',
       // Price: '2.80035 ( $ per KG)',
       Price1:'4.6788 ( $ per KG)',
-      img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/soyaBeans.jpeg',
+      img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/pumpkin.jpeg',
     },{
       title: 'Radish',
       // Price: '2.9421 ( $ per KG)',
@@ -502,18 +502,18 @@ const data = [
       img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/chives.jpeg',
       },
   
-      {
-      title: 'Coriander',
-      // Price: '3.2256 $ (per KG)',
-      Price1:'3.1668 ( $ per KG)',
-      img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/beetroot.jpeg',
-      },
+      // {
+      // title: 'Coriander',
+      // // Price: '3.2256 $ (per KG)',
+      // Price1:'3.1668 ( $ per KG)',
+      // img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/beetroot.jpeg',
+      // },
       
       {
       title: 'Curry Leaves',
       // Price: '2.9421 $ (per KG)',
       Price1:'3.1668 ( $ per KG)',
-      img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/eggPlant.jpeg',
+      img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/curryLeaves.jpeg',
     },
 
     {
@@ -542,14 +542,14 @@ const data = [
      title: 'Mint Leaves',
      // Price: '2.9421 $ (per KG)',
      Price1:'3.1668 ( $ per KG)',
-     img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/eggPlant.jpeg',
+     img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/mintLeaves.jpeg',
    },
   
    {
     title: 'Mondia Whitei',
     // Price: '4.0026 $ (per KG)',
     Price1:'6.1908 ( $ per KG)',
-    img1:require('../../Images/mondiaWhitei.jpg'),
+    img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/mondiaWhitei.jpeg',
    },
 
   {
@@ -563,7 +563,7 @@ const data = [
    title: 'Rosemary',
    // Price: '3.2256 $ (per KG)',
    Price1:'3.1668 ( $ per KG)',
-   img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/beetroot.jpeg',
+   img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/rosemary.jpeg',
    },
    
 
@@ -602,10 +602,10 @@ const HeroSection = () => {
         src={item.img1}
       />
     }
-    actions={[
-      <ShoppingCartOutlined />,
-      <PhoneOutlined key="ellipsis" />,
-    ]}
+    // actions={[
+    //   <ShoppingCartOutlined />,
+    //   <PhoneOutlined key="ellipsis" />,
+    // ]}
   >
     <Meta
       // avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
