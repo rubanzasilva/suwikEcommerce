@@ -11,6 +11,7 @@ const data = [
   {
     title: 'Apple Bananas',
     // Price: '2.3751 ( $ per KG)',
+    description:'',
     Price1:'3.1668 ( $ per KG)',
     img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/latundanBanana.jpeg',
     
@@ -552,14 +553,14 @@ const data = [
    },
 
   {
-   title: 'Persley',
+   title: 'Parsley',
    // Price: '4.6431 $ (per KG)',
    Price1:'3.1668 ( $ per KG)',
    img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/persley.jpeg',
    },
 
    {
-   title: 'Rosemars',
+   title: 'Rosemary',
    // Price: '3.2256 $ (per KG)',
    Price1:'3.1668 ( $ per KG)',
    img1:'https://d322abd807wvow.cloudfront.net/suwik-photos/beetroot.jpeg',
@@ -618,9 +619,9 @@ const HeroSection = () => {
       {item.Price}
     </p>
     <br/>
-    <p>
+    {/* <p>
       {item.Price1}
-    </p>
+    </p> */}
   </Card>
         {/* <Card title={item.title} description={item.description}>Card content</Card> */}
         

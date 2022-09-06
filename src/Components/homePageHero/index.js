@@ -24,7 +24,7 @@ const HeroCategory = ({title,headline,buttonText,video}) => {
             <HeroP> <Title level={2} style={{color:"#ffffff"}}>{headline}</Title></HeroP>
             <BtnWrap>
             <Button type="link" size="large" href='/ProductCatalog' style={{color:"#ffffff",borderColor:"#00a886",background:"#000",
-                       borderRadius:"6px",minWidth:"100px", marginTop:"32px" }}>See Our Catalogue</Button>
+                       borderRadius:"6px",minWidth:"100px", marginTop:"32px", borderRadius:"6px" }}>See Our Catalogue</Button>
             {/* <Button type="primary" size="large" style={{background:"#cf1322",
                       borderColor:"red",minWidth:"200px" , borderRadius:"6px" }}>{buttonText}</Button> */}
             </BtnWrap>

@@ -27,7 +27,7 @@ const SideBarSuwik = ({title1,title5,isOpen,toggle}) => {
                     <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",marginTop:"6px",fontFamily:"Lato,Roboto"}}>Our Products</Title>
                     </SideBarRoute>
 
-                    <SideBarRoute to="/About"> 
+                    <SideBarRoute to="/ProductCatalog"> 
                     <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>About</Title>
                     </SideBarRoute>
                     
