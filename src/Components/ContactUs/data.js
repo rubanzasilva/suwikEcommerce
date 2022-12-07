@@ -7,10 +7,10 @@ export const homeObjA = {
     text:'We supply and export agricultural commodities to all destinations globally.',
     text2:'Reach out to us for a long term stable commodities supply partner.',
     text3:'Suwik Investments',
-    phone:'Call us on +(256) 756 838 283',
+    phone:'Call us on +(256) 762 764 298',
     email:'Email us at :-wilson@suwik.xyz',
     email1:'',
-    email2:"gwkisekka@zicofe.com",
+    email2:"carolddembe@suwik.xyz",
     street:'Plot 104, 5th street Industrial Area',
     city:'Kampala, Uganda'
 };

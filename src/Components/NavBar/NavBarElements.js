@@ -33,8 +33,6 @@ export const NavBarContainer = styled.div`
      width:80%;
         
     }
-
-
 `
 
 
@@ -49,7 +47,6 @@ export const NavLogo = styled(LinkR)`
  left:0;
  font-weight:bold;
  text-decoration:none;
-
 
  @media screen and (max-width:960px) {
         transition: 0.8s all ease;
