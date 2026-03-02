@@ -14,7 +14,7 @@ export const SectionAinfo = {
 
 export const SectionAinfoA = {
     id:'ourSuppliers',
-    TitleText:'Our suppliers',
+    TitleText:'Our SSuppliers',
     headline:'We source locally grown produce in a sustainable manner',
     text:'We work with out-growers who we provide with organic farm inputs, training on how to use the organic farm inputs and seedlings',
     text1:'',
