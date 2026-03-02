@@ -2,7 +2,7 @@
 export const SectionAinfo = {
     id:'vision',
     TitleText:'Vision and Mission',
-    headline:'To be the leading exporter of the freshest, highest quality agricultural products with guaranteed customer satisfaction',
+    headline:'To be the leading exporter and importer of the freshest, highest quality agricultural products with guaranteed customer satisfaction',
     text:'',
     text1:'',
     imgStart:false,
@@ -41,7 +41,7 @@ export const SectionAinfoC = {
     TitleText:'Market Penetration',
     headline:'Gulf region',
     text:'Europe',
-    text1:'South Africa',
+    text1:'East Africa',
     imgStart:false,
     img:'https://d322abd807wvow.cloudfront.net/suwik-photos/sharing.png',
     alt:'Suwik target market',
